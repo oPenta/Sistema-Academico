@@ -11,7 +11,7 @@ Interface Gráfica Moderna: Interface construída com JavaFX e FXML, com um desi
 
 
 🛠️ Tecnologias Utilizadas
-Linguagem: Java 11
+Linguagem: Java 24
 Interface Gráfica: JavaFX 17
 Persistência de Dados: JPA / Hibernate 5.6
 Banco de Dados: PostgreSQL
