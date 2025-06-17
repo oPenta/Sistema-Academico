@@ -3,31 +3,31 @@ Aplicação desktop para gerenciamento acadêmico desenvolvida com JavaFX, JPA/H
 
 ✨ Funcionalidades
 Painel de Controle Principal: Navegação central e intuitiva.
-Gerenciamento de Cursos: CRUD (Criar, Ler, Atualizar, Deletar) completo para Cursos.
-Gerenciamento de Professores: CRUD completo para Professores.
-Gerenciamento de Disciplinas: CRUD completo para Disciplinas, com associação a um Curso.
-Gerenciamento de Turmas: CRUD completo para Turmas, com associação a uma Disciplina e um Professor.
-Interface Gráfica Moderna: Interface construída com JavaFX e FXML, com um design limpo e organizado.
-
-
+Gerenciamento de Cursos: CRUD (Criar, Ler, Atualizar, Deletar) completo para cursos.
+Gerenciamento de Professores: CRUD completo para professores.
+Gerenciamento de Disciplinas: CRUD completo para disciplinas, com associação a um curso.
+Gerenciamento de Turmas: CRUD completo para turmas, com associação a uma disciplina e um professor.
+Interface Gráfica Moderna: Interface construída com JavaFX e FXML, com design limpo e organizado.
 🛠️ Tecnologias Utilizadas
 Linguagem: Java 24
 Interface Gráfica: JavaFX 17
 Persistência de Dados: JPA / Hibernate 5.6
 Banco de Dados: PostgreSQL
 Gerenciador de Dependências: Apache Maven
-
-
 📂 Estrutura do Projeto
-O projeto foi organizado utilizando o padrão arquitetural MVC (Model-View-Controller) e estruturado em camadas para uma melhor organização e manutenção do código:
+O projeto segue o padrão arquitetural MVC (Model-View-Controller), organizado em camadas para melhor manutenção e organização do código:
+
 
 src/main/java/org/sysimc/
-controller/: Contém a lógica de controle e os eventos da interface gráfica.
-dao/: Camada de Acesso a Dados (Data Access Object), responsável pela comunicação com o banco de dados.
-model/: Classes de entidade que mapeiam as tabelas do banco de dados (POJOs).
-utils/: Classes utilitárias, como a JPAUtil para a configuração do Hibernate.
-Main.java: Ponto de entrada da aplicação JavaFX.
+│
+├── controller/   # Lógica de controle e eventos da interface gráfica
+├── dao/          # Camada de acesso a dados (Data Access Object), comunicação com o banco de dados
+├── model/        # Classes de entidade (POJOs) que mapeiam as tabelas do banco de dados
+├── utils/        # Classes utilitárias, como JPAUtil para configuração do Hibernate
+└── Main.java     # Ponto de entrada da aplicação JavaFX
+
 src/main/resources/org/sysimc/
-view/: Arquivos FXML que definem a estrutura das telas.
+└── view/         # Arquivos FXML que definem a estrutura das telas
+
 src/main/resources/META-INF/
-persistence.xml: Arquivo de configuração da unidade de persistência do JPA/Hibernate.
+└── persistence.xml   # Arquivo de configuração da unidade de persistência do JPA/Hibernate
