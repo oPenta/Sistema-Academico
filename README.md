@@ -1,15 +1,12 @@
 # 🎓 Sistema de Gestão Acadêmica
 
-![Java](https://img.shields.io/badge/Java-11+-blue?style=for-the-badge&logo=java)
+![Java](https://img.shields.io/badge/Java-24+-blue?style=for-the-badge&logo=java)
 ![JavaFX](https://img.shields.io/badge/JavaFX-17-orange?style=for-the-badge&logo=openjfx)
 ![Hibernate](https://img.shields.io/badge/Hibernate-5.6-red?style=for-the-badge&logo=hibernate)
 ![Maven](https://img.shields.io/badge/Maven-3-lightgrey?style=for-the-badge&logo=apache-maven)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue?style=for-the-badge&logo=postgresql)
 
 Aplicação desktop para gerenciamento acadêmico desenvolvida com JavaFX, JPA/Hibernate e Maven. Permite o controle completo de cursos, professores, disciplinas e turmas, com persistência de dados em um banco de dados PostgreSQL.
-
-**(Dica: Tire um print da sua tela principal e cole aqui para um README incrível!)**
-![Screenshot da Aplicação](caminho/para/sua/imagem.png)
 
 ---
 
