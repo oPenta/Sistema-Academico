@@ -18,15 +18,14 @@ Gerenciador de Dependências: Apache Maven
 O projeto segue o padrão arquitetural MVC (Model-View-Controller), organizado em camadas para melhor manutenção e organização do código:
 
 src/main/java/org/sysimc/
-│
-├── controller/   # Lógica de controle e eventos da interface gráfica
-├── dao/          # Camada de acesso a dados (Data Access Object), comunicação com o banco de dados
-├── model/        # Classes de entidade (POJOs) que mapeiam as tabelas do banco de dados
-├── utils/        # Classes utilitárias, como JPAUtil para configuração do Hibernate
-└── Main.java     # Ponto de entrada da aplicação JavaFX
+├── controller/  # Lógica de controle e eventos da interface gráfica
+├── dao/         # Camada de acesso a dados (Data Access Object)
+├── model/       # Classes de entidade (POJOs) que mapeiam as tabelas
+├── utils/       # Classes utilitárias, como JPAUtil
+└── Main.java    # Ponto de entrada da aplicação JavaFX
 
 src/main/resources/org/sysimc/
-└── view/         # Arquivos FXML que definem a estrutura das telas
+└── view/        # Arquivos FXML que definem a estrutura das telas
 
 src/main/resources/META-INF/
-└── persistence.xml   # Arquivo de configuração da unidade de persistência do JPA/Hibernate
+└── persistence.xml # Arquivo de configuração da unidade de persistência
