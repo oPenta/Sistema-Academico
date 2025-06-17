@@ -17,7 +17,6 @@ Gerenciador de Dependências: Apache Maven
 📂 Estrutura do Projeto
 O projeto segue o padrão arquitetural MVC (Model-View-Controller), organizado em camadas para melhor manutenção e organização do código:
 
-
 src/main/java/org/sysimc/
 │
 ├── controller/   # Lógica de controle e eventos da interface gráfica
